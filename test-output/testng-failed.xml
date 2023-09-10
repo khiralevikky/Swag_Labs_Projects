@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Swag Labs Automation]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="test.CheckoutPageTest">
+        <methods>
+          <include name="verifyZipCodeFieldByEnteringSpecialCharacter"/>
+          <include name="publish"/>
+          <include name="openbBrowser"/>
+          <include name="verifyFirstNameFieldByEnteringNumber"/>
+          <include name="verifyLastNameFieldByEnteringSpecialCharacters"/>
+          <include name="verifyZipCodeFieldByEnteringCharacter"/>
+          <include name="verifyLastNameFieldByEnteringNumber"/>
+          <include name="verifyFirstNameFieldByEnteringAlphaCharactersAndNumbers"/>
+          <include name="verifyLastNameFieldByEnteringAlphaCharactersAndNumbers"/>
+          <include name="captureResult"/>
+          <include name="configureReports"/>
+          <include name="verifyZipCodeFieldByEnteringInvalidNumber"/>
+          <include name="verifyFirstNameFieldByEnteringSpecialCharacters"/>
+        </methods>
+      </class> <!-- test.CheckoutPageTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Swag Labs Automation] -->
